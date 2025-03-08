@@ -5,36 +5,23 @@ namespace NSReadInt
     internal class Program
     {
         static void Main(string[] args)
-        {
-            GetUserNumber(out int number);
-            Console.WriteLine($"Ввод успешно конвертирован в число: {number}.");
+        {           
+            Console.WriteLine($"Ввод успешно конвертирован в число: {GetUserNumber()}.");
             Console.ReadKey();
         }
 
-        private static int GetUserNumber(out int number)
+        private static int GetUserNumber()
         {
-            bool isWork = true;
-            number = 0;
+            int number;
+            string userInput;
 
-            while (isWork)
+            do
             {
-                Console.WriteLine("Введите число: ");
-                string userInput = Console.ReadLine();
-
-                if (int.TryParse(userInput, out int result))
-                {
-                    Console.WriteLine("Успешно.");
-                    number = result;
-                    isWork = false;
-                }
-                else
-                {
-                    Console.WriteLine("Это не число, попробуйте ещё раз...");
-                }
-
-                Console.ReadKey();
                 Console.Clear();
+                Console.WriteLine("Введите число: ");
+                userInput = Console.ReadLine();
             }
+            while (int.TryParse(userInput, out number) == false);
 
             return number;
         }
