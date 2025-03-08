@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSReadInt", "NSReadInt\NSReadInt.csproj", "{06E33EE1-5E92-44A2-A01E-0760D5098682}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06E33EE1-5E92-44A2-A01E-0760D5098682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E33EE1-5E92-44A2-A01E-0760D5098682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E33EE1-5E92-44A2-A01E-0760D5098682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E33EE1-5E92-44A2-A01E-0760D5098682}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CC52929-949A-4FC0-8E3C-5587AFD5D70F}
+	EndGlobalSection
+EndGlobal
